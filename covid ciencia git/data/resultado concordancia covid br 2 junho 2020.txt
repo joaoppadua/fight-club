@@ -1,0 +1,56 @@
+-- COM STOPWORDS -- 
+
+Data is 45409 words long
+Type-token ratio of data is 0.12466691625008258.
+Most common words:
+ [('rt', 1975), ('de', 1753), ('a', 1476), ('o', 1456), ('que', 966), ('e', 953), ('do', 894), ('https', 890), ('coronavírus', 743), ('no', 611), ('da', 594), ('em', 540), ('para', 518), ('por', 482), ('brasil', 433), ('com', 395), ('é', 393), ('na', 343), ('não', 331), ('mais', 322), ('se', 311), ('um', 302), ('mortes', 285), ('os', 277), ('uma', 272), ('coronavirus', 238), ('tem', 226), ('bolsonaro', 196), ('sem', 185), ('está', 162), ('já', 160), ('casos', 160), ('mil', 159), ('pandemia', 158), ('pra', 151), ('as', 132), ('pessoas', 128), ('há', 127), ('pelo', 117), ('estão', 116), ('ao', 116), ('mortos', 112), ('nos', 111), ('eu', 111), ('como', 110), ('dia', 106), ('mas', 103), ('são', 103), ('gente', 102), ('sobre', 100)]
+Main collocations:
+ ['mortes por', 'podia enviar', 'china enviou', 'gente podia', 'minas gerais', 'enviar bolsonaro', 'circulação prévia', 'uma grande', 'respiratória aguda', 'síndrome respiratória', 'burocratas jornavírus', 'especialistas burocratas', 'uso humano', 'necessário haver', 'bolsonaro pra', 'covid minas', 'meses impedindo', 'praga que', 'vírus fortaleza', 'está disponível']
+
+Concordances:
+
+Displaying 14 of 14 matches:
+e deveria estar o rt marcofeliciano ciência veja o que renomados cientistas diz
+ detecta risco de rt marcofeliciano ciência veja o que renomados cientistas diz
+tamos aqui pra ajudar e aproximar a ciência de todo mundo rt ladydayisings entr
+existentes no brasil doações para a ciência começaram a despontar com a pandemi
+existentes no brasil doações para a ciência começaram a despontar com a pandemi
+ário do brasil pedro almeida nega a ciência minimiza mortes pelo rt euotrouxa o
+sultado resultado resultado o que a ciência está fazendo para combater o corona
+de um período marcado por ataques à ciência quero rt politzoficial deputado líd
+fc musadocentrao andreiasadi veja a ciência antes e agora nos links abaixo qual
+ronavirus ativo um em cinco milhões ciência e governo humanista de rt marveltcx
+ronavirus ativo um em cinco milhões ciência e governo humanista de rt sherlocki
+edito consequências da corrupção da ciência transformada em ciência ciência ci 
+orrupção da ciência transformada em ciência ciência ci ênnnn cia a rt usambbr o
+ da ciência transformada em ciência ciência ci ênnnn cia a rt usambbr o anúncio
+
+-- SEM STOPWORDS -- 
+
+Do you want stop words removed? yes
+What word do you want concordance lines for? ciência
+Fetching data...
+Data is 28705 words long
+Type-token ratio of data is 0.19237066713116183.
+Most common words:
+ [('rt', 1975), ('https', 890), ('coronavírus', 743), ('brasil', 433), ('é', 393), ('mortes', 285), ('coronavirus', 238), ('bolsonaro', 196), ('casos', 160), ('mil', 159), ('pandemia', 158), ('pra', 151), ('pessoas', 128), ('mortos', 112), ('dia', 106), ('gente', 102), ('sobre', 100), ('oatila', 97), ('contra', 91), ('uso', 90), ('mundo', 90), ('grande', 90), ('novo', 87), ('ailtonbenedito', 86), ('vai', 84), ('saúde', 82), ('hidroxicloroquina', 82), ('eua', 78), ('osmarterra', 78), ('cada', 78), ('dias', 77), ('hoje', 76), ('china', 73), ('lá', 73), ('governo', 72), ('q', 71), ('número', 71), ('país', 69), ('anos', 69), ('enviou', 66), ('cá', 66), ('podia', 66), ('enviar', 66), ('envia', 66), ('praga', 66), ('diz', 65), ('covid', 64), ('lcfavelado', 64), ('ter', 62), ('gugachacra', 62)]
+Main collocations:
+ ['envia praga', 'podia enviar', 'china enviou', 'cada envia', 'lcfavelado china', 'gente podia', 'minas gerais', 'circulação prévia', 'enviar bolsonaro', 'enviou coronavirus', 'alfinetei maisa', 'maisa previu', 'respiratória aguda', 'síndrome respiratória', 'burocratas jornavírus', 'democratas retroescavadeira', 'jornavírus democratas', 'lista medicamentos', 'especialistas burocratas', 'programa eliana']
+
+Concordances:
+
+Displaying 14 of 14 matches:
+nde deveria estar rt marcofeliciano ciência veja renomados cientistas dizem sob
+tra detecta risco rt marcofeliciano ciência veja renomados cientistas dizem sob
+ pergunta aqui pra ajudar aproximar ciência todo mundo rt ladydayisings entro e
+i quase inexistentes brasil doações ciência começaram despontar pandemia corona
+i quase inexistentes brasil doações ciência começaram despontar pandemia corona
+literário brasil pedro almeida nega ciência minimiza mortes rt euotrouxa corona
+stico resultado resultado resultado ciência fazendo combater coronavírus https 
+ivez diante período marcado ataques ciência quero rt politzoficial deputado líd
+lffc musadocentrao andreiasadi veja ciência antes agora links abaixo acredita h
+aso coronavirus ativo cinco milhões ciência governo humanista rt marveltcx cara
+aso coronavirus ativo cinco milhões ciência governo humanista rt sherlockinstig
+tonbenedito consequências corrupção ciência transformada ciência ciência ci ênn
+cias corrupção ciência transformada ciência ciência ci ênnnn cia rt usambbr anú
+rupção ciência transformada ciência ciência ci ênnnn cia rt usambbr anúncio us 
