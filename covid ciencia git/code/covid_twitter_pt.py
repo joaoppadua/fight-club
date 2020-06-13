@@ -5,10 +5,10 @@ import tweepy, pandas as pd, csv, os
 
 #get an authentication from Twitter
 
-consumerKey = '2TDhqQpqDJ5vElZT5RwmmUUvR'
-consumerSecret = '1FvO85YI8AfaQ86kOmCxLvf2A8aaxCJozWnZKGzA712aClzI6n'
-accessToken = '184757106-XpRQiy0dk9YTLuC8QAuX5WROYJSYikIvgzSHXP7L'
-accessSecret = 'YhOdhds60M6v48DJZxxT88zJaQGvrnfmIkNKkn9g2seSU'
+consumerKey = [redacted]
+consumerSecret = [redacted]
+accessToken = [redacted]
+accessSecret = [redacted]
 searchParam = input('Enter search parameter: ')
 
 #Access Twitter API
