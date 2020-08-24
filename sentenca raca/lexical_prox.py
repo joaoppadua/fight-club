@@ -59,35 +59,22 @@ Ribeiro 1820, Bairro Alto, Casa 4, Curitiba/PR, como incurso nas penas previstas
 da Lei no 12.850/13; art. 157, §2o, inciso II do Código Penal, art. 155, §4o, incisos II e IV, do
 Código Penal e art. 155, §4o, inciso IV, do Código Penal , em concurso material (fato I, """
 
-
-
 #Create a function to clean the data from meta-text stamps
-
 def clean_txt(text):
     pattern = r'Página(\s.*){9}\sOUTROS'
     mod_text = re.sub(pattern, ' ', text)
     final_text = re.sub('[^\w\s]', ' ', mod_text)
     return final_text
 
-#print(clean_txt(ex_text))
-
-
 #load spacy object
-
 nlp = spacy.load('pt_core_news_lg')
 
-#TODO: Open file, read, vectorize data
-
+#Open file, read, vectorize data
 with open('Sentenca raca.txt', 'r') as f:
     data = f.read()
     text = clean_txt(data)
     tokens = nlp(text)
- 
     
-#DEBUG
-#for token in tokens[:50]:
-#    print(token.text, token.has_vector)
-
 #Create a loop with conditional statement to find similar lexical items to "raça"
     count = 0
     rate = float(input('Qual o grau de similaridade? '))
@@ -100,3 +87,6 @@ with open('Sentenca raca.txt', 'r') as f:
                 print(token1, token2, token1.similarity(token2))
     print(f'Número de ocorrências da palavra "raça": {count}')
 
+#DEBUG
+#for token in tokens[:50]:
+#    print(token.text, token.has_vector)
