@@ -60,10 +60,7 @@ print('Most common bigrams for "roubo"', cfd['roubo'].most_common(10), '\n')
 print(f'Bigram probability model for "reconhecimento": {prob_reconhecimento}\n')
 print('Bigram probability model for "mera": ', bigram_generator('mera', cfd, fdist), '\n\n')
 
-
-#print('Bigrams for "roubo":', cfd['roubo'].max())
-#print('Bigrams for "reconhecimento":', cfd['reconhecimento'].max())
-
+#Condordance tables
 TEXT.concordance('reconhecimento')
 TEXT.concordance('recomendação')
 TEXT.collocations()
@@ -71,13 +68,13 @@ TEXT.collocations()
 #Bigram plots for key lexical items
 cfd.plot(conditions=['reconhecimento'], cumulative=False)
 
-#TODO: Creating dataframes for bigrams
+#Creating dataframes for bigrams
 data_df=[prob_reconhecimento[i][1] for i in range(len(prob_reconhecimento))]
 df_reconhecimento = pd.DataFrame(data=data_df, index=[prob_reconhecimento[i][0] for i in range(len(prob_reconhecimento))], columns=['Probabilidade bigrama'])
+
+
+#DEBUGGERS AND OTHER 
 #df_reconhecimento.to_excel('reconhecimento bigrama.xlsx')
-
-
-
 #cfd.plot(conditions=['artigo'], cumulative=False)
 
 #freq_bgrams.plot()
@@ -86,3 +83,5 @@ df_reconhecimento = pd.DataFrame(data=data_df, index=[prob_reconhecimento[i][0] 
 #print(data_clean[:10])
 #print(data_full[:10])
 #print(df_reconhecimento.head())
+#print('Bigrams for "roubo":', cfd['roubo'].max())
+#print('Bigrams for "reconhecimento":', cfd['reconhecimento'].max())
